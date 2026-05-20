@@ -1,9 +1,15 @@
-export default function Navbar() {
+export default function Footer() {
   return (
-    <header style={{padding:"20px",borderBottom:"1px solid #eee"}}>
+    <footer
+      style={{
+        padding: "20px",
+        borderTop: "1px solid #eee",
+        marginTop: "40px"
+      }}
+    >
       <div className="container">
-        <h1>Hamed Store</h1>
+        <p>© 2026 Hamed Store</p>
       </div>
-    </header>
+    </footer>
   );
 }
